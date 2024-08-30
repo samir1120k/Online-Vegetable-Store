@@ -1,7 +1,6 @@
 import "package:flutter/material.dart";
 import 'package:test_2/pages/home_page.dart';
 import 'package:test_2/pages/login_page.dart';
-
 import 'package:test_2/utils/routes.dart';
 import 'package:test_2/widgets/themes.dart';
 
@@ -21,7 +20,7 @@ class MyApp extends StatelessWidget {
       darkTheme: Mytheme.darkTheme(context),
       initialRoute: "/",
       routes: {
-        "/": (context) => LoginPage(),
+        "/": (context) => HomePage(),
         MyRoutes.homeRoutes: (context) => HomePage(),
         MyRoutes.loginRoutes: (context) => LoginPage(),
       },

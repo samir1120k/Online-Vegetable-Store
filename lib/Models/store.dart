@@ -1,10 +1,28 @@
+class CatlogModel {
+  static final items = [
+    Item(
+        id: 1,
+        name: 'Cat 1',
+        desc: 'This is cat 1',
+        price: 49,
+        image: 'assets/images/cat.png',
+        color: '#9864EC'),
+  ];
+}
+
 class Item {
-  final String id;
+  final int id;
   final String name;
   final String desc;
   final num price;
   final String color;
-  final String Image;
+  final String image;
 
-  Item(this.id, this.name, this.desc, this.price, this.color, this.Image);
+  Item(
+      {required this.id,
+      required this.name,
+      required this.desc,
+      required this.price,
+      required this.color,
+      required this.image});
 }
