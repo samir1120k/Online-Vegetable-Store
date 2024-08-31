@@ -1,0 +1,68 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Monkey",
+            "desc": "There are currently 264 known monkey species",
+            "price": 50.99,
+            "color": "#9864EC",
+            "image": "https://s25.postimg.org/f49ronv5r/monkey_large.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Owal",
+            "desc": "There are around 200 different owl species",
+            "price": 10.99,
+            "color": "#9864EC",
+            "image": "https://s25.postimg.org/nb1rg8l8f/owl_large.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Peacock",
+            "desc": "Peacocks are large, colorful pheasants",
+            "price": 10.99,
+            "color": "#9864EC",
+            "image": "https://s25.postimg.org/oelvs75vj/peacock_large.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Piegon",
+            "desc": "Most of our domesticated pigeons have a common ancestor",
+            "price": 10.99,
+            "color": "#9864EC",
+            "image": "https://s25.postimg.org/oelvs75vj/peacock_large.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Zebra",
+            "desc": "Zebra are part of the equidae family along with horse",
+            "price": 10.99,
+            "color": "#9864EC",
+            "image": "https://s25.postimg.org/xrmgwb9mn/zebra_large.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Tortoise",
+            "desc": "A tortoise's shell is made up of 60 different bones",
+            "price": 10.99,
+            "color": "#9864EC",
+            "image": "https://s25.postimg.org/g0auhuu7z/totoise_large.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Spider",
+            "desc": "Spiders are arachnids, not insects",
+            "price": 10.99,
+            "color": "#9864EC",
+            "image": "https://s25.postimg.org/tsp9dhkzj/spider_large.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Lion",
+            "desc": "Living in the grasslands",
+            "price": 10.99,
+            "color": "#9864EC",
+            "image": "https://s25.postimg.org/55ot26lq7/lion_large.jpg"
+        }
+    ]
+}
