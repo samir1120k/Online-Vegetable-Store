@@ -38,16 +38,40 @@ class _HomePageState extends State<HomePage> {
         title: Text("app bar"),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: ListView.builder(
-          itemCount: CatlogModel.items.length,
-          itemBuilder: (context, index) {
-            return ItemWidget(
-              item: CatlogModel.items[index],
-            );
-          },
-        ),
-      ),
+          padding: const EdgeInsets.all(16.0),
+          child: GridView.builder(
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 2,
+              mainAxisSpacing: 15,
+              crossAxisSpacing: 15,
+            ),
+            itemBuilder: (context, index) {
+              final item = CatlogModel.items[index];
+              return Card(
+                  clipBehavior: Clip.antiAlias,
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10)),
+                  child: GridTile(
+                    header: Container(
+                        padding: const EdgeInsets.all(12),
+                        decoration: BoxDecoration(
+                            color: Color.fromARGB(255, 100, 231, 240)),
+                        child: Text(
+                          item.name,
+                          style: TextStyle(color: Colors.white),
+                        )),
+                    child: Image.network(item.image),
+                    footer: Container(
+                        padding: const EdgeInsets.all(12),
+                        decoration: BoxDecoration(color: Colors.black),
+                        child: Text(
+                          item.price.toString(),
+                          style: TextStyle(color: Colors.white),
+                        )),
+                  ));
+            },
+            itemCount: CatlogModel.items.length,
+          )),
       drawer: myDrawer(),
     );
   }
