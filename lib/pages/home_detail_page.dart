@@ -12,19 +12,23 @@ class HomeDetialsPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       backgroundColor: Mytheme.creamColor,
-      bottomNavigationBar: ButtonBar(
-        alignment: MainAxisAlignment.spaceBetween,
-        buttonPadding: EdgeInsets.zero,
+      bottomNavigationBar: Row(
         children: [
-          "\$${catalog.price}".text.bold.xl.make(),
-          ElevatedButton(
-            onPressed: () {},
-            style: ButtonStyle(
-              backgroundColor:
-                  MaterialStateProperty.all(Mytheme.dartBluishColor),
-            ),
-            child: "Buy".text.color(Mytheme.creamColor).make(),
-          ).wh(300, 50)
+          ButtonBar(
+            alignment: MainAxisAlignment.spaceBetween,
+            buttonPadding: EdgeInsets.zero,
+            children: [
+              "\$${catalog.price}".text.bold.xl4.make(),
+              ElevatedButton(
+                onPressed: () {},
+                style: ButtonStyle(
+                  backgroundColor:
+                      MaterialStateProperty.all(Mytheme.dartBluishColor),
+                ),
+                child: "Buy".text.color(Mytheme.creamColor).make(),
+              ).wh(150, 50).pOnly(left: 70.0)
+            ],
+          ),
         ],
       ).p32(),
       body: SafeArea(
@@ -40,7 +44,6 @@ class HomeDetialsPage extends StatelessWidget {
             arcType: VxArcType.convey,
             edge: VxEdge.top,
             child: Container(
-              color: Vx.white,
               width: context.screenWidth,
               child: Column(
                 children: [
