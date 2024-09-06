@@ -5,7 +5,7 @@ class CatlogModel {
         name: 'Cat 1',
         desc: 'This is cat 1',
         price: 49,
-        image: 'https://pngimg.com/uploads/cat/small/cat_PNG50463.png',
+        image: 'assets/images/cat.png',
         color: '#9864EC'),
   ];
 }

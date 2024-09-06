@@ -6,7 +6,7 @@
             "desc": "There are currently 264 known monkey species",
             "price": 50.99,
             "color": "#9864EC",
-            "image": "https://pngimg.com/uploads/monkey/small/monkey_PNG18737.png"
+            "image": "assets/images/cat.png"
         },
         {
             "id": 2,
@@ -14,7 +14,7 @@
             "desc": "There are around 200 different owl species",
             "price": 10.99,
             "color": "#9864EC",
-            "image": "https://pngimg.com/uploads/arctic_fox/small/arctic_fox_PNG41385.png"
+            "image": "assets/images/cat.png"
         },
         {
             "id": 3,
@@ -22,7 +22,7 @@
             "desc": "Peacocks are large, colorful pheasants",
             "price": 10.99,
             "color": "#9864EC",
-            "image": "https://pngimg.com/uploads/peacock/small/peacock_PNG26.png"
+            "image": "assets/images/cat.png"
         },
         {
             "id": 4,
@@ -30,7 +30,7 @@
             "desc": "Most of our domesticated pigeons have a common ancestor",
             "price": 10.99,
             "color": "#9864EC",
-            "image": "https://pngimg.com/uploads/arctic_fox/small/arctic_fox_PNG41385.png"
+            "image": "assets/images/cat.png"
         },
         {
             "id": 5,
@@ -38,7 +38,7 @@
             "desc": "Zebra are part of the equidae family along with horse",
             "price": 10.99,
             "color": "#9864EC",
-            "image": "https://pngimg.com/uploads/zebra/small/zebra_PNG8964.png"
+            "image": "assets/images/cat.png"
         },
         {
             "id": 6,
@@ -46,7 +46,7 @@
             "desc": "A tortoise's shell is made up of 60 different bones",
             "price": 10.99,
             "color": "#9864EC",
-            "image": "https://pngimg.com/uploads/arctic_fox/small/arctic_fox_PNG41385.png"
+            "image": "assets/images/cat.png"
         },
         {
             "id": 7,
@@ -54,7 +54,7 @@
             "desc": "Spiders are arachnids, not insects",
             "price": 10.99,
             "color": "#9864EC",
-            "image": "https://pngimg.com/uploads/spider/small/spider_PNG31.png"
+            "image": "assets/images/cat.png"
         },
         {
             "id": 8,
@@ -62,7 +62,7 @@
             "desc": "Living in the grasslands",
             "price": 10.99,
             "color": "#9864EC",
-            "image": "https://pngimg.com/uploads/lion/small/lion_PNG555.png"
+            "image": "assets/images/cat.png"
         }
     ]
 }
