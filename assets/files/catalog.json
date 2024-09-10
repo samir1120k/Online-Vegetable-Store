@@ -2,43 +2,43 @@
     "products": [
         {
             "id": 1,
-            "name": "Monkey",
-            "desc": "There are currently 264 known monkey species",
-            "price": 50.99,
+            "name": "Tomatoes",
+            "desc": "Fresh And Healthy Organic tomatoes",
+            "price": 2.0,
             "color": "#9864EC",
-            "image": "assets/images/cat.png"
+            "image": "assets/images/OIP.jpeg"
         },
         {
             "id": 2,
-            "name": "Owal",
-            "desc": "There are around 200 different owl species",
-            "price": 10.99,
+            "name": "Brinjal",
+            "desc": "aayein!!",
+            "price": 1.0,
             "color": "#9864EC",
-            "image": "assets/images/cat.png"
+            "image": "assets/images/Brijal.jpeg"
         },
         {
             "id": 3,
-            "name": "Peacock",
-            "desc": "Peacocks are large, colorful pheasants",
-            "price": 10.99,
+            "name": "Lady Finger",
+            "desc": "This only for cooking",
+            "price": 1.5,
             "color": "#9864EC",
-            "image": "assets/images/cat.png"
+            "image": "assets/images/LAdy finger.jpeg"
         },
         {
             "id": 4,
-            "name": "Piegon",
-            "desc": "Most of our domesticated pigeons have a common ancestor",
-            "price": 10.99,
+            "name": "Onion",
+            "desc": "Get ready for tears",
+            "price": 3.1,
             "color": "#9864EC",
-            "image": "assets/images/cat.png"
+            "image": "assets/images/Onion.png"
         },
         {
             "id": 5,
-            "name": "Zebra",
-            "desc": "Zebra are part of the equidae family along with horse",
-            "price": 10.99,
+            "name": "Potato",
+            "desc": "Potato is the king of all vegetables",
+            "price": 0.8,
             "color": "#9864EC",
-            "image": "assets/images/cat.png"
+            "image": "assets/images/Potatoes.png"
         },
         {
             "id": 6,
