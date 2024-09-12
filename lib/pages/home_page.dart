@@ -6,7 +6,6 @@ import 'package:test_2/Models/store.dart';
 import 'package:test_2/utils/routes.dart';
 import 'package:test_2/widgets/home_widgets/Catalog_header.dart';
 import 'package:test_2/widgets/home_widgets/Catalog_list.dart';
-import 'package:test_2/widgets/themes.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 class HomePage extends StatefulWidget {

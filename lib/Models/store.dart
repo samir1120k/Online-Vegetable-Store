@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 class CatlogModel {
   static List<Item> items = [
     Item(
@@ -8,6 +10,11 @@ class CatlogModel {
         image: 'assets/images/cat.png',
         color: '#9864EC'),
   ];
+
+  static getById(int id) =>
+      items.firstWhere((element) => element.id == id, orElse: null);
+
+  static getByPosition(int pos) => items[pos];
 }
 
 class Item {
