@@ -17,12 +17,14 @@ class HomeDetialsPage extends StatelessWidget {
       bottomNavigationBar: Container(
         color: context.cardColor,
         child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             ButtonBar(
               alignment: MainAxisAlignment.spaceBetween,
               buttonPadding: EdgeInsets.zero,
               children: [
                 "\$${catalog.price}".text.bold.xl4.make(),
+                50.widthBox,
                 ElevatedButton(
                   onPressed: () {},
                   style: ButtonStyle(
@@ -30,7 +32,7 @@ class HomeDetialsPage extends StatelessWidget {
                         MaterialStateProperty.all(context.theme.focusColor),
                   ),
                   child: "Buy".text.color(Mytheme.creamColor).make(),
-                ).wh(150, 50).pOnly(left: 70)
+                ).wh(120, 50),
               ],
             ),
           ],

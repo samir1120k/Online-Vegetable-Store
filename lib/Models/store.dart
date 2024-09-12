@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 class CatlogModel {
   static List<Item> items = [
     Item(
