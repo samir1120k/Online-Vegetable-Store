@@ -13,8 +13,8 @@ class catalogHeader extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          "Catalog App".text.xl5.bold.color(Mytheme.dartBluishColor).make(),
-          "Loyal Animals".text.center.xl2.make(),
+          "Catalog App".text.xl5.bold.color(context.theme.hintColor).make(),
+          "Loyal Animals".text.color(context.theme.hintColor).center.xl2.make(),
         ],
       ),
     );
@@ -59,6 +59,6 @@ class CatalogItem extends StatelessWidget {
           ],
         ))
       ],
-    )).white.rounded.square(150).make().py16();
+    )).color(context.theme.cardColor).rounded.square(150).make().py16();
   }
 }
