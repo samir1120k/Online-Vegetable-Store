@@ -13,26 +13,29 @@ class HomeDetialsPage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
       ),
-      backgroundColor: Mytheme.creamColor,
-      bottomNavigationBar: Row(
-        children: [
-          ButtonBar(
-            alignment: MainAxisAlignment.spaceBetween,
-            buttonPadding: EdgeInsets.zero,
-            children: [
-              "\$${catalog.price}".text.bold.xl4.make(),
-              ElevatedButton(
-                onPressed: () {},
-                style: ButtonStyle(
-                  backgroundColor:
-                      MaterialStateProperty.all(Mytheme.dartBluishColor),
-                ),
-                child: "Buy".text.color(Mytheme.creamColor).make(),
-              ).wh(150, 50).pOnly(left: 70.0)
-            ],
-          ),
-        ],
-      ).p32(),
+      backgroundColor: context.theme.canvasColor,
+      bottomNavigationBar: Container(
+        color: context.cardColor,
+        child: Row(
+          children: [
+            ButtonBar(
+              alignment: MainAxisAlignment.spaceBetween,
+              buttonPadding: EdgeInsets.zero,
+              children: [
+                "\$${catalog.price}".text.bold.xl4.make(),
+                ElevatedButton(
+                  onPressed: () {},
+                  style: ButtonStyle(
+                    backgroundColor:
+                        MaterialStateProperty.all(context.theme.focusColor),
+                  ),
+                  child: "Buy".text.color(Mytheme.creamColor).make(),
+                ).wh(150, 50).pOnly(left: 70)
+              ],
+            ),
+          ],
+        ).p32(),
+      ),
       body: SafeArea(
         bottom: false,
         child: Column(children: [
@@ -46,11 +49,12 @@ class HomeDetialsPage extends StatelessWidget {
             arcType: VxArcType.convey,
             edge: VxEdge.top,
             child: Container(
+              color: context.cardColor,
               width: context.screenWidth,
               child: Column(
                 children: [
                   catalog.name.text.xl4
-                      .color(Mytheme.dartBluishColor)
+                      .color(context.theme.hintColor)
                       .bold
                       .make(),
                   catalog.desc.text.textStyle(context.captionStyle).xl.make(),
@@ -58,7 +62,7 @@ class HomeDetialsPage extends StatelessWidget {
               ).py64(),
             ),
           ))
-        ]).p16(),
+        ]),
       ),
     );
   }

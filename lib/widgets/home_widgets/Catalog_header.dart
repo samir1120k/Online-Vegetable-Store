@@ -13,8 +13,13 @@ class catalogHeader extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          "Catalog App".text.xl5.bold.color(context.theme.hintColor).make(),
-          "Loyal Animals".text.color(context.theme.hintColor).center.xl2.make(),
+          "Vegetable Store".text.xl4.bold.color(context.theme.hintColor).make(),
+          "Fresh Vegetable"
+              .text
+              .color(context.theme.hintColor)
+              .center
+              .xl2
+              .make(),
         ],
       ),
     );
@@ -39,7 +44,7 @@ class CatalogItem extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            catalog.name.text.lg.color(Mytheme.dartBluishColor).bold.make(),
+            catalog.name.text.lg.color(context.theme.focusColor).bold.make(),
             catalog.desc.text.textStyle(context.captionStyle).make(),
             ButtonBar(
               alignment: MainAxisAlignment.spaceBetween,
@@ -50,7 +55,7 @@ class CatalogItem extends StatelessWidget {
                   onPressed: () {},
                   style: ButtonStyle(
                     backgroundColor:
-                        MaterialStateProperty.all(Mytheme.dartBluishColor),
+                        MaterialStateProperty.all(context.theme.focusColor),
                   ),
                   child: "Buy".text.color(Mytheme.creamColor).make(),
                 )

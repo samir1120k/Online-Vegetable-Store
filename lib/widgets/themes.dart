@@ -25,7 +25,7 @@ class Mytheme {
       focusColor: lightBluishColor,
       appBarTheme: AppBarTheme(
         backgroundColor: Colors.black,
-        iconTheme: IconThemeData(color: Colors.black),
+        iconTheme: IconThemeData(color: Colors.white),
       ));
 
   static Color creamColor = Color(0xfff5f5f5);
