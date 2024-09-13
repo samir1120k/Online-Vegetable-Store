@@ -1,4 +1,10 @@
 class CatlogModel {
+  static final catmodel = CatlogModel._internal();
+
+  CatlogModel._internal();
+
+  factory CatlogModel() => catmodel;
+
   static List<Item> items = [
     Item(
         id: 1,
@@ -9,10 +15,10 @@ class CatlogModel {
         color: '#9864EC'),
   ];
 
-  static getById(int id) =>
+  getById(int id) =>
       items.firstWhere((element) => element.id == id, orElse: null);
 
-  static getByPosition(int pos) => items[pos];
+  getByPosition(int pos) => items[pos];
 }
 
 class Item {
