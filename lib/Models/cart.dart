@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:test_2/Models/store.dart';
 
 class CartModel {
