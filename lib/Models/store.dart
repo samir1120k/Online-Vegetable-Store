@@ -1,10 +1,4 @@
 class CatlogModel {
-  static final catmodel = CatlogModel._internal();
-
-  CatlogModel._internal();
-
-  factory CatlogModel() => catmodel;
-
   static List<Item> items = [
     Item(
         id: 1,
