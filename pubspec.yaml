@@ -38,6 +38,7 @@ dependencies:
   flutter_font_picker: ^1.4.0
   google_fonts: ^5.1.0
   velocity_x: ^4.2.1
+  http: ^1.2.2
 
 dev_dependencies:
   flutter_test:
