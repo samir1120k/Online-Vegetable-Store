@@ -54,8 +54,6 @@ online-vegetable-store/ <br>
    cd online-vegetable-store
    flutter pub get
    flutter run
-## 🎨 Screenshots
-Sign up Page |Home Screen                    |                         	Product Details	                    |                  Cart Screen
 
 ## 🌟 Future Enhancements
 Add a search bar for quick product lookup.<br>
